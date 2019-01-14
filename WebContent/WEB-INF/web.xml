@@ -8,5 +8,8 @@
   	<servlet-name>XMLServlet</servlet-name>
   	<servlet-class>org.malik.javabrains.XmlServlet</servlet-class>
   </servlet>
-  <servlet-mapping></servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>XMLServlet</servlet-name>
+  	<url-pattern>/xmlservletpath</url-pattern>
+  </servlet-mapping>
 </web-app>
